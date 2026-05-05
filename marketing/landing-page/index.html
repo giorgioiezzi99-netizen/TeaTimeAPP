@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TeaTimer | Perfect tea, every time.</title>
+    <meta name="description" content="Scan your tea, save your favorites, and brew every cup with the right timer.">
+    <link rel="icon" href="assets/logo/teatimer-icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="TeaTimer home">
+        <img src="assets/logo/teatimer-icon.svg" alt="" width="40" height="40">
+        <span>TeaTimer</span>
+      </a>
+      <nav>
+        <a href="#preview">Preview</a>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+      </nav>
+      <a class="header-cta" href="#waitlist">Join</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <video class="hero-video" autoplay muted loop playsinline poster="assets/photos/hero-thumbnail-bg.png">
+          <source src="assets/videos/tea-hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-shade" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <img class="hero-icon" src="assets/logo/teatimer-icon.svg" alt="TeaTimer app icon" width="112" height="112">
+          <h1 id="hero-title">TeaTimer</h1>
+          <p class="hero-subtitle">Perfect tea, every time.</p>
+          <p class="hero-copy">Scan your tea label, save your favorites, and brew every cup with confidence.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#waitlist">Join the waitlist</a>
+            <a class="button button-secondary" href="#how">See how it works</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section preview-section" id="preview" aria-labelledby="preview-title">
+        <div class="section-heading">
+          <h2 id="preview-title">A calmer way to brew.</h2>
+          <p>Drop in real app screenshots when they are ready. The layout is prepared for Home, Scan Tea, Saved Teas, and Diary.</p>
+        </div>
+
+        <div class="phone-grid" aria-label="TeaTimer app preview placeholders">
+          <article class="phone-frame">
+            <div class="phone-screen timer-screen">
+              <span class="phone-label">Home</span>
+              <div class="timer-ring">03:00</div>
+              <h3>Sencha</h3>
+              <p>76°C · gentle green</p>
+            </div>
+          </article>
+          <article class="phone-frame">
+            <div class="phone-screen scan-screen">
+              <span class="phone-label">Scan Tea</span>
+              <div class="scan-window"></div>
+              <h3>Label detected</h3>
+              <p>Green tea · 2-3 min</p>
+            </div>
+          </article>
+          <article class="phone-frame">
+            <div class="phone-screen saved-screen">
+              <span class="phone-label">Saved Teas</span>
+              <div class="tea-row"><span>Jasmine</span><strong>2:30</strong></div>
+              <div class="tea-row"><span>Oolong</span><strong>4:00</strong></div>
+              <div class="tea-row"><span>Assam</span><strong>3:30</strong></div>
+            </div>
+          </article>
+          <article class="phone-frame">
+            <div class="phone-screen diary-screen">
+              <span class="phone-label">Diary</span>
+              <h3>Evening cup</h3>
+              <p>Soft, grassy, honey finish.</p>
+              <div class="rating" aria-label="Five star review">★★★★★</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section features-section" id="features" aria-labelledby="features-title">
+        <div class="section-heading align-left">
+          <h2 id="features-title">Everything your tea remembers.</h2>
+          <p>Simple tools for scanning, saving, timing, and coming back to the cups you love.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-mark">01</span>
+            <h3>Smart scanner</h3>
+            <p>Detect tea type and brew time from the package.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-mark">02</span>
+            <h3>Saved teas</h3>
+            <p>Save your favorite teas and reuse them anytime.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-mark">03</span>
+            <h3>Precise timer</h3>
+            <p>Use the right time and temperature for every tea.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-mark">04</span>
+            <h3>Notifications</h3>
+            <p>Get notified when your tea is ready.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-mark">05</span>
+            <h3>Dynamic Island</h3>
+            <p>Follow your tea timer directly from your iPhone.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-mark">06</span>
+            <h3>Tea moments</h3>
+            <p>Track your mood, notes, photos, and reviews.</p>
+          </article>
+          <article class="feature-card wide">
+            <span class="feature-mark">07</span>
+            <h3>Multi-language support</h3>
+            <p>English, Italian, French, and Spanish.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="how-section" id="how" aria-labelledby="how-title">
+        <div class="how-media">
+          <img src="assets/photos/scanner-package-bg.png" alt="Premium tea package prepared for scanning">
+        </div>
+        <div class="how-copy">
+          <h2 id="how-title">Scan once. Brew beautifully.</h2>
+          <ol class="steps">
+            <li>
+              <span>1</span>
+              <div>
+                <h3>Scan your tea label</h3>
+                <p>Let TeaTimer read the essentials from the package.</p>
+              </div>
+            </li>
+            <li>
+              <span>2</span>
+              <div>
+                <h3>Save it once</h3>
+                <p>Keep the tea, timing, temperature, and notes together.</p>
+              </div>
+            </li>
+            <li>
+              <span>3</span>
+              <div>
+                <h3>Brew perfectly every time</h3>
+                <p>Start the right timer whenever the kettle is ready.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="lifestyle-section" aria-label="Tea lifestyle imagery">
+        <img src="assets/photos/launch-lifestyle-bg.png" alt="Warm green tea setup with teapot and cup">
+        <img src="assets/photos/warm-tea-table-bg.png" alt="Elegant tea table with cups, leaves, and soft gold accessories">
+        <video autoplay muted loop playsinline poster="assets/photos/hero-thumbnail-bg.png">
+          <source src="assets/videos/tea-lifestyle.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section class="final-cta" id="waitlist" aria-labelledby="waitlist-title">
+        <div>
+          <img class="final-icon" src="assets/logo/teatimer-icon.svg" alt="" width="76" height="76">
+          <h2 id="waitlist-title">TeaTimer</h2>
+          <p class="final-subtitle">Perfect tea, every time.</p>
+          <p class="testing-note">Now testing on iPhone</p>
+        </div>
+
+        <form class="waitlist-form" id="waitlist-form">
+          <label for="email">Join the waitlist</label>
+          <div class="form-row">
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <button class="button button-primary" type="submit">Join the waitlist</button>
+          </div>
+          <p class="form-status" id="form-status" aria-live="polite">Email capture is a placeholder for now.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>TeaTimer</span>
+      <span>Perfect tea, every time.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

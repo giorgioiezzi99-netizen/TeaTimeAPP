@@ -1,0 +1,39 @@
+{
+  "name": "remotion-campaign",
+  "version": "1.0.0",
+  "description": "TeaTimer vertical launch campaign videos built with Remotion",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.457",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.457",
+    "@remotion/tailwind-v4": "4.0.457",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.457",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "render:15": "remotion render TeaTimerAd15 out/teatimer-ad-15s.mp4",
+    "render:30": "remotion render TeaTimerAd30 out/teatimer-ad-30s.mp4",
+    "render:6": "remotion render TeaTimerBumper6 out/teatimer-bumper-6s.mp4",
+    "render:thumb:hero": "remotion still TeaTimerThumbnailHero out/thumbnail-hero.png",
+    "render:thumb:scanner": "remotion still TeaTimerThumbnailScanner out/thumbnail-scanner.png",
+    "still:check": "remotion still TeaTimerAd15 --scale=0.25 --frame=180 out/check-frame.png",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

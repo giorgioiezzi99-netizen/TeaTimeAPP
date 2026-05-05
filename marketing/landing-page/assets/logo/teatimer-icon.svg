@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TeaTimer app icon</title>
+  <desc id="desc">A dark green rounded square with a gold tea leaf and timer mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="78" y1="40" x2="420" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173A2B"/>
+      <stop offset="0.58" stop-color="#092218"/>
+      <stop offset="1" stop-color="#03120D"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="142" y1="102" x2="376" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4C8"/>
+      <stop offset="0.42" stop-color="#D8AC52"/>
+      <stop offset="1" stop-color="#8D672A"/>
+    </linearGradient>
+    <filter id="softShadow" x="40" y="44" width="432" height="432" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#020B08" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect x="48" y="48" width="416" height="416" rx="92" fill="url(#bg)" filter="url(#softShadow)"/>
+  <path d="M256 128V168" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M151 257C151 199 198 152 256 152C314 152 361 199 361 257C361 315 314 362 256 362C198 362 151 315 151 257Z" stroke="url(#gold)" stroke-width="20"/>
+  <path d="M256 257L317 210" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M255 257C229 222 191 217 164 229C176 258 206 287 255 257Z" fill="url(#gold)"/>
+  <path d="M257 257C280 303 326 312 359 293C343 258 307 224 257 257Z" fill="url(#gold)"/>
+  <path d="M186 121L211 154" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M326 154L351 121" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+</svg>

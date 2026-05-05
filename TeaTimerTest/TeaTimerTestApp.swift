@@ -11,7 +11,7 @@ import SwiftUI
 struct TeaTimerTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TeaTimerRootView()
         }
     }
 }
