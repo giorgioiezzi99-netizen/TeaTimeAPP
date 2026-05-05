@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TeaTimer</title>
+    <meta http-equiv="refresh" content="0; url=marketing/landing-page/">
+    <link rel="canonical" href="marketing/landing-page/">
+    <style>
+      :root {
+        color-scheme: dark;
+        --green: #061610;
+        --cream: #fff8e9;
+        --gold: #f2d996;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        display: grid;
+        min-height: 100svh;
+        margin: 0;
+        place-items: center;
+        background: var(--green);
+        color: var(--cream);
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      main {
+        width: min(520px, calc(100% - 40px));
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(44px, 10vw, 72px);
+        line-height: 1;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: rgba(255, 248, 233, 0.72);
+      }
+
+      a {
+        display: inline-flex;
+        min-height: 48px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 13px 21px;
+        background: var(--cream);
+        color: var(--green);
+        font-weight: 750;
+        text-decoration: none;
+      }
+
+      a:focus-visible,
+      a:hover {
+        background: var(--gold);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>TeaTimer</h1>
+      <p>Opening the TeaTimer landing page.</p>
+      <a href="marketing/landing-page/">Open TeaTimer</a>
+    </main>
+    <script>
+      window.location.replace("marketing/landing-page/");
+    </script>
+  </body>
+</html>
