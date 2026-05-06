@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TeaTimer | Perfect tea, every time.</title>
     <meta name="description" content="Scan your tea, save your favorites, and brew every cup with the right timer.">
-    <link rel="icon" href="assets/logo/teatimer-icon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/logo/teatimer-app-icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="site-header" aria-label="Primary navigation">
       <a class="brand" href="#top" aria-label="TeaTimer home">
-        <img src="assets/logo/teatimer-icon.svg" alt="" width="40" height="40">
+        <img src="assets/logo/teatimer-app-icon.png" alt="" width="40" height="40">
         <span>TeaTimer</span>
       </a>
       <nav>
@@ -30,12 +30,12 @@
         <div class="hero-shade" aria-hidden="true"></div>
 
         <div class="hero-content">
-          <img class="hero-icon" src="assets/logo/teatimer-icon.svg" alt="TeaTimer app icon" width="112" height="112">
+          <img class="hero-icon" src="assets/logo/teatimer-app-icon.png" alt="TeaTimer app icon" width="112" height="112">
           <h1 id="hero-title">TeaTimer</h1>
           <p class="hero-subtitle">Perfect tea, every time.</p>
           <p class="hero-copy">Scan your tea label, save your favorites, and brew every cup with confidence.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#waitlist">Join the waitlist</a>
+            <a class="button button-primary" href="#waitlist">Download it</a>
             <a class="button button-secondary" href="#how">See how it works</a>
           </div>
         </div>
@@ -44,40 +44,34 @@
       <section class="section preview-section" id="preview" aria-labelledby="preview-title">
         <div class="section-heading">
           <h2 id="preview-title">A calmer way to brew.</h2>
-          <p>Drop in real app screenshots when they are ready. The layout is prepared for Home, Scan Tea, Saved Teas, and Diary.</p>
+          <p>Scan, save, time, and review your tea with one calm iPhone experience.</p>
         </div>
 
         <div class="phone-grid" aria-label="TeaTimer app preview placeholders">
           <article class="phone-frame">
-            <div class="phone-screen timer-screen">
-              <span class="phone-label">Home</span>
-              <div class="timer-ring">03:00</div>
-              <h3>Sencha</h3>
-              <p>76°C · gentle green</p>
+            <div class="phone-screen app-shot-screen timer-shot-screen">
+              <img src="assets/app-screenshots/home-timer.png" alt="TeaTimer home timer screen">
+              <div class="steam-motion" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
           </article>
           <article class="phone-frame">
-            <div class="phone-screen scan-screen">
-              <span class="phone-label">Scan Tea</span>
-              <div class="scan-window"></div>
-              <h3>Label detected</h3>
-              <p>Green tea · 2-3 min</p>
+            <div class="phone-screen app-shot-screen scan-shot-screen">
+              <img src="assets/app-screenshots/scan-tea.png" alt="TeaTimer scan tea screen">
             </div>
           </article>
           <article class="phone-frame">
-            <div class="phone-screen saved-screen">
-              <span class="phone-label">Saved Teas</span>
-              <div class="tea-row"><span>Jasmine</span><strong>2:30</strong></div>
-              <div class="tea-row"><span>Oolong</span><strong>4:00</strong></div>
-              <div class="tea-row"><span>Assam</span><strong>3:30</strong></div>
+            <div class="phone-screen app-shot-screen saved-shot-screen">
+              <img src="assets/app-screenshots/saved-teas.png" alt="TeaTimer saved teas screen">
             </div>
           </article>
           <article class="phone-frame">
-            <div class="phone-screen diary-screen">
-              <span class="phone-label">Diary</span>
-              <h3>Evening cup</h3>
-              <p>Soft, grassy, honey finish.</p>
-              <div class="rating" aria-label="Five star review">★★★★★</div>
+            <div class="phone-screen app-shot-screen diary-shot-screen">
+              <img src="assets/app-screenshots/tea-review.png" alt="TeaTimer tea review screen">
+              <div class="rating" aria-hidden="true">★★★★★</div>
             </div>
           </article>
         </div>
@@ -130,7 +124,7 @@
 
       <section class="how-section" id="how" aria-labelledby="how-title">
         <div class="how-media">
-          <img src="assets/photos/scanner-package-bg.png" alt="Premium tea package prepared for scanning">
+          <img src="assets/photos/thumbnail-hero.png" alt="TeaTimer launch artwork with a warm cup of tea">
         </div>
         <div class="how-copy">
           <h2 id="how-title">Scan once. Brew beautifully.</h2>
@@ -160,17 +154,9 @@
         </div>
       </section>
 
-      <section class="lifestyle-section" aria-label="Tea lifestyle imagery">
-        <img src="assets/photos/launch-lifestyle-bg.png" alt="Warm green tea setup with teapot and cup">
-        <img src="assets/photos/warm-tea-table-bg.png" alt="Elegant tea table with cups, leaves, and soft gold accessories">
-        <video autoplay muted loop playsinline poster="assets/photos/hero-thumbnail-bg.png">
-          <source src="assets/videos/tea-lifestyle.mp4" type="video/mp4">
-        </video>
-      </section>
-
       <section class="final-cta" id="waitlist" aria-labelledby="waitlist-title">
         <div>
-          <img class="final-icon" src="assets/logo/teatimer-icon.svg" alt="" width="76" height="76">
+          <img class="final-icon" src="assets/logo/teatimer-app-icon.png" alt="" width="76" height="76">
           <h2 id="waitlist-title">TeaTimer</h2>
           <p class="final-subtitle">Perfect tea, every time.</p>
           <p class="testing-note">Now testing on iPhone</p>
