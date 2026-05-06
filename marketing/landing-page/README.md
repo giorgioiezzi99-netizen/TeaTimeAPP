@@ -32,30 +32,34 @@ You can also serve the folder with any static server if you prefer.
 Copied from `marketing/video_campaign_veo_3.1` into `marketing/landing-page/assets`:
 
 - `assets/videos/tea-hero.mp4`
-- `assets/videos/tea-lifestyle.mp4`
 - `assets/photos/hero-thumbnail-bg.png`
 - `assets/photos/launch-lifestyle-bg.png`
 - `assets/photos/scanner-package-bg.png`
+- `assets/photos/thumbnail-hero.png`
 - `assets/photos/warm-tea-table-bg.png`
 
-No `logo/` folder or app screenshots were present in the supplied campaign asset folder, so this page includes a local fallback SVG app icon at `assets/logo/teatimer-icon.svg`.
+`assets/videos/tea-lifestyle.mp4` is kept in the assets folder for future use but is not currently rendered on the page.
+
+The page also uses the real TeaTimer app icon copied from the iOS asset catalog:
+
+- `assets/logo/teatimer-app-icon.png`
+
+The original fallback SVG icon remains available at `assets/logo/teatimer-icon.svg`, but the page now uses the real app icon.
 
 ## App Screenshots
 
-Place real screenshots here when available:
+Real app screenshots are used in the preview phones:
 
 ```text
 marketing/landing-page/assets/app-screenshots/
 ```
 
-Suggested filenames:
-
 - `home-timer.png`
 - `scan-tea.png`
 - `saved-teas.png`
-- `diary-reviews.png`
+- `tea-review.png`
 
-Then replace the placeholder phone markup in `index.html` inside the `#preview` section with `<img>` tags pointing to those files.
+Replace these files with updated screenshots using the same names when you want to refresh the preview.
 
 ## Editing Copy
 
@@ -65,7 +69,6 @@ Edit visible text in `index.html`. The main sections are:
 - App preview
 - Features
 - How it works
-- Lifestyle
 - Final CTA / waitlist
 
 Styling lives in `style.css`. The color system is defined at the top under `:root`.
