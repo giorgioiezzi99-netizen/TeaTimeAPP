@@ -1,80 +1,43 @@
 # TeaTimer Landing Page
 
-Static premium landing page for TeaTimer. It is organized as a lightweight GitHub-ready static project and does not require a build step.
-
-## Project Structure
-
-```text
-landing-page/
-  index.html
-  style.css
-  script.js
-  README.md
-  assets/
-    app-screenshots/
-    logo/
-    photos/
-    videos/
-```
-
-## Open Locally
-
-Open `index.html` in a browser:
+The official TeaTimer landing page now lives at the repository root:
 
 ```bash
-open /Users/giorgioiezzi/Desktop/TeaTimerTest/marketing/landing-page/index.html
+open /Users/giorgioiezzi/Desktop/TeaTimerTest/index.html
 ```
 
-You can also serve the folder with any static server if you prefer.
-
-## Assets Used
-
-Copied from `marketing/video_campaign_veo_3.1` into `marketing/landing-page/assets`:
-
-- `assets/videos/tea-hero.mp4`
-- `assets/photos/hero-thumbnail-bg.png`
-- `assets/photos/launch-lifestyle-bg.png`
-- `assets/photos/scanner-package-bg.png`
-- `assets/photos/thumbnail-hero.png`
-- `assets/photos/warm-tea-table-bg.png`
-
-`assets/videos/tea-lifestyle.mp4` is kept in the assets folder for future use but is not currently rendered on the page.
-
-The page also uses the real TeaTimer app icon copied from the iOS asset catalog:
-
-- `assets/logo/teatimer-app-icon.png`
-
-The original fallback SVG icon remains available at `assets/logo/teatimer-icon.svg`, but the page now uses the real app icon.
-
-## App Screenshots
-
-Real app screenshots are used in the preview phones:
+The previous static landing page has been archived at:
 
 ```text
-marketing/landing-page/assets/app-screenshots/
+marketing/landing-page/archive/old-static-landing-2026-05-07/
 ```
 
-- `home-timer.png`
-- `scan-tea.png`
-- `saved-teas.png`
-- `tea-review.png`
+## Active Page
 
-Replace these files with updated screenshots using the same names when you want to refresh the preview.
+- `../../index.html` is the active landing page.
+- `../../style.css` contains the Lovable-generated production CSS.
+- `../../script.js` preserves the small nav and placeholder waitlist interactions.
+- `marketing/landing-page/index.html` redirects to the active root page for backward compatibility.
 
-## Editing Copy
+## Assets
 
-Edit visible text in `index.html`. The main sections are:
+The active page still uses the local TeaTimer assets in:
 
-- Hero
-- App preview
-- Features
-- How it works
-- Final CTA / waitlist
+```text
+marketing/landing-page/assets/
+```
 
-Styling lives in `style.css`. The color system is defined at the top under `:root`.
+Key assets:
+
+- `assets/logo/teatimer-app-icon.png`
+- `assets/photos/thumbnail-hero.png`
+- `assets/app-screenshots/home-timer.png`
+- `assets/app-screenshots/scan-tea.png`
+- `assets/app-screenshots/saved-teas.png`
+- `assets/app-screenshots/tea-review.png`
+
+Older videos and generated photos remain in the assets folder so no brand material is removed silently.
 
 ## Not Connected Yet
 
-The waitlist form has no backend or email capture service. It validates the email field visually and opens a `mailto:` message to `hello@teatimer.app`.
-
-To connect real capture later, replace the submit handler in `script.js` with a request to your backend, newsletter provider, or form service.
+The waitlist form is still a visual placeholder. There is no backend, email capture service, authentication, or API integration connected for the landing page.
